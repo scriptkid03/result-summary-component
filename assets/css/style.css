@@ -1,0 +1,187 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 27px 0px;
+  color: hsl(224, 30%, 27%);
+  height: 440px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  padding: 30px 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  justify-content: center;
+}
+
+.span {
+  font-size: 50px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+
+.bold {
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 28px;
+}
+
+.color{
+  color: hsl(224, 30%, 27%);
+  margin: 0px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  outline: 1px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.txt {
+  color: hsla(0, 0%, 100%, 0.8);
+
+}
+
+.circle p {
+  font-size: 15px;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.summary {
+  background-color: white;
+  border-radius: 20px;
+  padding: 27px 0px;
+  color: hsl(224, 30%, 27%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  justify-content: center;
+}
+
+.mark{
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+
+.total{
+  color: hsla(224, 30%, 27%, 0.4);
+  font-weight: 700;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 100%, 67%);
+  gap: 10px;
+  border-radius: 15px;
+  margin: 5px 25px;
+}
+
+.reaction span{
+  font-weight: 700;
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(39, 100%, 56%);
+  gap: 10px;
+  border-radius: 15px;
+  margin: 5px 25px;
+}
+
+.memory span{
+  font-weight: 700;
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(166, 100%, 37%);
+  gap: 10px;
+  border-radius: 15px;
+  margin: 5px 25px;
+}
+
+.verbal span{
+  font-weight: 700;
+}
+
+.visual {
+  background: hsla(234, 85%, 45%, 0.2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(234, 85%, 45%);
+  gap: 10px;
+  border-radius: 15px;
+  margin: 5px 25px;
+}
+
+.visual span{
+  font-weight: 700;
+}
+
+.continue {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  padding: 15px 90px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 5px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.continue:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
